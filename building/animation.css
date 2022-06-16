@@ -1,0 +1,33 @@
+.request:hover {
+	background-color: #FF4A4A;
+	transition: 0.2s;
+}
+.list:hover {
+	background-color: #FF4A4A;
+	transition: 0.2s;
+}
+.agents:hover {
+	background-color: #FF4A4A;
+	transition: 0.2s;
+}
+.building:hover {
+	background-color: #FF4A4A;
+	transition: 0.2s;
+}
+.about:hover {
+	background-color: #FF4A4A;
+	transition: 0.2s;
+}
+.news:hover {
+	background-color: #FF4A4A;
+	transition: 0.2s;
+}
+
+#circle {
+  animation: circle1 0.6s 1;
+  animation-timing-function: linear;
+	/* animation-delay: 1s; */
+}
+  @keyframes circle1 {
+  0% {opacity: 0%;}
+	100% {opacity: 100%;}
