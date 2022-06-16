@@ -1,164 +1,206 @@
 body {
-  /* background-color: black; */
-	  background-color: black;
-		height: 1080px;
-		width: 1920px;
+	height: 1080px;
+	width: 1920px;
+	overflow: hidden;
+	cursor: crosshair;
 }
 #circle {
+	position: absolute;
+}
+.cursor_img {
+	position: absolute;
+	background-image: url(../images/cursor.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-left: 34%;
+	margin-top: -65%;
+	z-index: 2;
+	width: 80px;
+	height: 80px;
+}
+.circle_blur {
 	width: 250px;
 	height: 250px;
-	background: #FF0000;
+	background-color: #FF0000;
 	border-radius: 50%;
-	position: absolute;
   filter: blur(50px);
 	z-index: 2;
 }
 .menu {
 	display: grid;
-  grid-template-columns: 0.46fr 0.67fr 1.7fr 0.5fr 1.1fr 1.1fr 1.1fr 0.6fr 1.7fr;
-  grid-template-rows: 1fr;
-  gap: 3px 3px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "back about building agents agents news list list request";
-  width: 1898px;
-  height: 92px;
-  border: 3px solid black;
-
+	grid-template-columns: 3px 1fr 3px 1.3fr 3px 1.3fr 3px 1.3fr 3px 0.6fr 3px 0.7fr 3px 1.3fr 3px;
+	grid-template-rows: 3px 1fr;
+	gap: 0px 0px;
+	grid-auto-flow: row;
+	grid-template-areas:
+	"hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1"
+	"ver1_1 about ver1_2 building ver1_3 agents ver1_4 news ver1_5 list list list ver1_6 request ver1_7";
+  width: 1920px;
+  height: 8.5%;
 }
 
-.back { grid-area: back;
-background-color: black;
-z-index: 2;
+.ver1_1 {
+	grid-area: ver1_1;
+	background-color: black;
+	z-index: 3
+}
+.ver1_2 {
+	grid-area: ver1_2;
+	background-color: black;
+	z-index: 3
+}
+.ver1_3 {
+	grid-area: ver1_3;
+	background-color: black;
+	z-index: 3
+}
+.ver1_4 {
+	grid-area: ver1_4;
+	background-color: black;
+	z-index: 3
+}
+.ver1_5 {
+	grid-area: ver1_5;
+	background-color: black;
+	z-index: 3
+}
+.ver1_6 {
+	grid-area: ver1_6;
+	background-color: black;
+	z-index: 3
+}
+.ver1_7 {
+	grid-area: ver1_7;
+	background-color: black;
+	z-index: 3
+}
+.hor1_1 {
+	grid-area: hor1_1;
+	background-color: black;
+	z-index: 3
 }
 
-.about { grid-area: about;
-background-color: white;
-z-index: 2;
+.about {
+	grid-area: about;
+	background-color: white;
+	z-index: 2;
 }
-
-.building { grid-area: building;
-background-color: white;
-z-index: 2;
-}
-
-.agents { grid-area: agents;
-background-color: white;
-z-index: 2;
-}
-
-.news { grid-area: news;
-background-color: #FF4A4A;
-z-index: 2;
-}
-
-.list { grid-area: list;
-background-color: white;
-z-index: 2;
-}
-
-.request { grid-area: request;
-background-color: white;
-z-index: 2;
-}
-
-.container {
-  display: grid;
-  grid-template-columns: 0.46fr 0.67fr 1.7fr 0.5fr 1.1fr 1.1fr 1.1fr 0.6fr 1.7fr;
-  grid-template-rows: 0.7fr 1.6fr 0.9fr 1.3fr 1fr;
-  gap: 3px 3px;
-  grid-template-areas:
-   "lectures lectures lectures lectures photo1 photo1 photo1 photo2 photo2"
-   "info1 info1 info1 info1 photo1 photo1 photo1 photo2 photo2"
-   "photo3 photo3 photo3 photo3 bigtext bigtext bigtext last-news last-news"
-   "photo3 photo3 photo3 photo3 bigtext bigtext bigtext red-photo red-photo"
-   "photo3 photo3 photo3 photo3 wannabe wannabe wannabe red-photo red-photo";
-  width: 1898px;
-  height: 987px;
-  border: 3px solid black;
-  margin-top: -2px;
-	z-index: 3;
-}
-
-.lectures {
-	grid-area: lectures;
+.building {
+	grid-area: building;
 	background-color: white;
 	z-index: 2;
 }
 
-.info1 {
-	grid-area: info1;
+.agents {
+	grid-area: agents;
+	background-color: white;
 	z-index: 2;
 }
-.circles {
-	padding-left: 42%;
-	padding-top: 4%;
-
+.news {
+	grid-area: news;
+	background-color: #FF4A4A;
+	z-index: 2;
 }
-.circle1 {
+
+.list {
+	grid-area: list;
+	background-color: white;
+	z-index: 2;
+}
+.request {
+	grid-area: request;
+	background-color: white;
+	z-index: 2;
+}
+.container {
+  display: grid;
+	grid-template-columns: 3px 1fr 3px 1.3fr 3px 1.3fr 3px 1.3fr 3px 0.6fr 3px 0.7fr 3px 1.3fr 3px;
+  grid-template-rows: 3px 0.3fr 3px 0.9fr 3px 1fr 3px;
+  gap: 0px 0px;
+  grid-template-areas:
+    "ver1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 ver6"
+    "ver1 banner banner banner banner banner banner banner banner banner banner banner banner banner ver6"
+    "ver1 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 ver6"
+    "ver1 вокруг вокруг вокруг ver2 name name name ver3 вокруг-3 вокруг-3 вокруг-3 вокруг-3 вокруг-3 ver6"
+    "ver1 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 ver6"
+    "ver1 вокруг2 вокруг2 вокруг2 ver4 descript descript descript ver5 вокруг-4 вокруг-4 вокруг-4 вокруг-4 вокруг-4 ver6"
+    "ver1 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 ver6";
+  width: 100%;
+  height: 91.5%;
+	z-index: 3;
+	position: sticky;
+}
+.banner { grid-area: banner; }
+.вокруг { grid-area: вокруг; }
+.вокруг2 { grid-area: вокруг2; }
+.name { grid-area: name; }
+.descript { grid-area: descript; }
+.вокруг-3 { grid-area: вокруг-3; }
+.вокруг-4 { grid-area: вокруг-4; }
+
+.ver1 {
+	grid-area: ver1;
+	background-color: black;
+	z-index: 3;
+}
+.hor1 {
+	grid-area: hor1;
+	background-color: black;
+	z-index: 3;
+}
+.ver2 {
+	grid-area: ver2;
+	background-color: black;
+	z-index: 3
+}
+.ver3 {
+	grid-area: ver3;
+	background-color: black;
+	z-index: 3
+}
+.ver4 {
+	grid-area: ver4;
+	background-color: black;
+	z-index: 3
+}
+.ver5 {
+	grid-area: ver5;
+	background-color: black;
+	z-index: 3
+}
+.ver6 {
+	grid-area: ver6;
+	background-color: black;
+	z-index: 3
+}
+.hor2 {
+	grid-area: hor2;
+	background-color: black;
+	z-index: 3;
+}
+.hor3 {
+	grid-area: hor3;
+	background-color: black;
+	z-index: 3;
+}
+.hor4 {
+	grid-area: hor4;
+	background-color: black;
+	z-index: 3;
+}
+
+
+.add_black {
+	background-color: black;
+}
+.add_black1 {
+	border-color: black;
+}
+.add_grey1 {
+	border-color: #DADADA;
 	background-color: #DADADA;
-	border-radius: 100%;
-	width: 17px;
-	height: 17px;
-	float: left;
-}
-.circle2 {
-	background-color: #DADADA;
-	border-radius: 100%;
-	width: 17px;
-	height: 17px;
-	float: left;
-  margin-left: 6%;
-}
-.circle3 {
-	background-color: #DADADA;
-	border-radius: 100%;
-	width: 17px;
-	height: 17px;
-	float: left;
-	margin-left: 6%;
 }
 
-i {
-    border: solid black;
-		border-width: 0 4px 4px 0;
-		display: inline-block;
-		padding: 8px;
-}
-
-.left {
-    -webkit-transform: rotate(135deg);
-		margin-left: -32%;
-}
-
-.right {
-    -webkit-transform: rotate(-45deg);
-		margin-left: 45%;
-}
-
-.photo1 { grid-area: photo1;
-	background-image: url(images/posters1.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	z-index: 2;
-}
-
-.photo2 { grid-area: photo2;
-	background-image: url(images/poster2.png);
-	background-repeat: no-repeat;
-	background-size: cover;
-	z-index: 2;
-}
-
-.last-news { grid-area: last-news;
-background-color: white;
-z-index: 2;
-}
-
-.bigtext {
-	grid-area: bigtext;
-	z-index: 2;
-}
 .white_back {
 	background-color: white;
 	height: 36.8%;
@@ -176,18 +218,12 @@ z-index: 2;
 	z-index: 0;
 	margin-top: 6.65vw;
 }
-.photo3 { grid-area: photo3;
-background-color: white;
-}
 
-.wannabe {
-	grid-area: wannabe;
-	background-color: black;
-	z-index: 2;
+.add_white {
+	background-color: white;
 }
-
-.red-photo { grid-area: red-photo;
-background-color: white;
+.add_grey {
+	background-color: #DDDDDD;
 }
 .tr-over {
   background-color: #FF4A4A;
