@@ -125,8 +125,8 @@ body {
 }
 .container {
   display: grid;
-	grid-template-columns: 0.015fr 0.46fr 0.015fr 0.67fr 0.015fr 1.7fr 0.015fr 0.5fr 0.015fr 1.1fr 0.015fr 1.1fr 0.015fr 1.1fr 0.015fr 0.6fr 0.015fr 1.7fr 0.015fr;
-	grid-template-rows: 0.019fr 0.7fr 0.019fr 1.6fr 0.019fr 0.9fr 0.019fr 1.3fr 0.019fr 1fr 0.019fr;
+	grid-template-columns: 3px 0.46fr 3px 0.67fr 3px 1.7fr 3px 0.5fr 3px 1.1fr 3px 1.1fr 3px 1.1fr 3px 0.6fr 3px 1.7fr 3px;
+	grid-template-rows: 3px 0.7fr 3px 1.6fr 3px 0.9fr 3px 1.3fr 3px 1fr 3px;
 	grid-template-areas:
 	  "hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1"
 	  "ver1 lectures lectures lectures lectures lectures lectures lectures ver2 photo1 photo1 photo1 photo1 photo1 ver4 photo2 photo2 photo2 ver6"
