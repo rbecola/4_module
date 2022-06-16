@@ -114,16 +114,16 @@ body {
 }
 .container {
   display: grid;
-	grid-template-columns: 3px 1fr 3px 1.3fr 3px 1.3fr 3px 1.3fr 3px 0.6fr 3px 0.7fr 3px 1.3fr 3px;
+	grid-template-columns: 3px 1fr 3px 1fr 3px 1.5fr 3px 1.5fr 3px 0.5fr 3px 1fr 3px 1fr 3px;
   grid-template-rows: 3px 0.3fr 3px 0.9fr 3px 1fr 3px;
   gap: 0px 0px;
   grid-template-areas:
     "ver1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 ver6"
     "ver1 banner banner banner banner banner banner banner banner banner banner banner banner banner ver6"
     "ver1 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 ver6"
-    "ver1 вокруг вокруг вокруг ver2 name name name ver3 вокруг-3 вокруг-3 вокруг-3 вокруг-3 вокруг-3 ver6"
+    "ver1 вокруг вокруг вокруг ver2 name name name name name ver3 вокруг-3 вокруг-3 вокруг-3 ver6"
     "ver1 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 ver6"
-    "ver1 вокруг2 вокруг2 вокруг2 ver4 descript descript descript ver5 вокруг-4 вокруг-4 вокруг-4 вокруг-4 вокруг-4 ver6"
+    "ver1 вокруг2 вокруг2 вокруг2 ver4 descript descript descript descript descript ver5 вокруг-4 вокруг-4 вокруг-4 ver6"
     "ver1 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 ver6";
   width: 100%;
   height: 91.5%;
