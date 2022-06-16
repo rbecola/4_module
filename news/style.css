@@ -1,0 +1,14 @@
+  @import  url('../reset.css');
+ @import url('../layout.css');
+ @import "content.css";
+ /* @import "adaptive.css"; */
+ @import url('../animation.css');
+ @font-face {
+ font-family: 'Lack Regular';
+  src: url('../fonts/Lack.otf') format('opentype');
+  src: url('../fonts/Lack.woff') format('woff');
+  src: url('../fonts/Lack.woff2') format('woff2');
+  src: url('../fonts/Lack.eot') format('eot');
+ font-weight: normal;
+ font-style: normal;
+ }
