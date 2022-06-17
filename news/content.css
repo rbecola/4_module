@@ -359,6 +359,11 @@ background-color: white;
 }
 .april_30 {
 	width: 90.9%;
+	display: block;
+}
+.new_txt {
+	width: 87.4%;
+	display: none;
 }
 .if_u {
 	width: 92%;
