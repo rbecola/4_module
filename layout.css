@@ -1,9 +1,10 @@
 h1 {
   font-family: Lack Regular;
-  font-size: 5.27vw;
+  font-size: 4.6vw;
   color: black;
   vertical-align: top;
-  text-align: left;
+  text-align: center;
+  line-height: 150%;
 }
 h2 {
   font-family: Lack Regular;
