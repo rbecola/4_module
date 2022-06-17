@@ -44,6 +44,13 @@ $(document).ready(function(){
   //   $(".circle1, .circle2, .right1").addClass("add_grey1");
   // });
 });
+$(function() {
+  $('.marquee').marquee({
+    duration: 10000,
+    startVisible: true,
+    duplicated: true
+  });
+});
 // function changeItem() {
 //   document.getElementById('circle').style.background = '#FF4A4A';
 // }// при наведении круг под курсором меняет оттенок красного.
