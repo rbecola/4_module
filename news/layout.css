@@ -28,7 +28,7 @@ h3 {
   padding-left: 7%;
 }
 h4 {
-  font-family: Lack Regular;
+  font-family: 'Lack Regular';
   font-size: 1.7vw;
   color: black;
   text-align: center;
@@ -36,7 +36,7 @@ h4 {
   margin-right: 2px
 }
 h5 {
-  font-family: Lack Regular;
+  font-family: 'Lack Regular';
   font-size: 1.9vw;
   color: black;
   text-align: left;
@@ -53,7 +53,7 @@ h5 {
   line-height: 9vw;
 }
 p {
-  font-family: Lack Regular;
+  font-family: 'Lack Regular';
   font-size: 1.5vw;
   color: black;
   padding-left: 1.6vw;
