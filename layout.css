@@ -6,14 +6,17 @@ h1 {
   text-align: center;
   line-height: 150%;
 }
+.h1_white {
+  color: white;
+}
+
 h2 {
   font-family: Lack Regular;
   font-size: 3vw;
   color: black;
   vertical-align: top;
   padding-top: 1.8vw;
-  text-align: left;
-  padding-left: 13%;
+  text-align: center;
 }
 h3 {
   font-family: Lack Regular;
