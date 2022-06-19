@@ -1,4 +1,39 @@
-@media screen and (max-width: 1921px) {
+@media screen and (min-width: 1922px) {
+  body {
+    width: 100%;
+  }
+  .container_news {
+    display: grid;
+  	grid-template-columns: 3px 0.46fr 3px 0.67fr 3px 1.7fr 3px 0.5fr 3px 1.1fr 3px 1.1fr 3px 1.1fr 3px 0.6fr 3px 1.7fr 3px;
+  	grid-template-rows: 3px 0.7fr 3px 1.6fr 3px 0.9fr 3px 1.3fr 3px 1fr 3px;
+  	grid-template-areas:
+  	  "hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1"
+  	  "ver1 lectures lectures lectures lectures lectures lectures lectures ver2 photo1 photo1 photo1 photo1 photo1 ver4 photo2 photo2 photo2 ver6"
+  	  "ver1 hor2 hor2 hor2 hor2 hor2 hor2 hor2 ver2 photo1 photo1 photo1 photo1 photo1 ver4 photo2 photo2 photo2 ver6"
+  	  "ver1 info1 info1 info1 info1 info1 info1 info1 ver2 photo1 photo1 photo1 photo1 photo1 ver4 photo2 photo2 photo2 ver6"
+  	  "ver1 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 ver6"
+  	  "ver1 photo3 photo3 photo3 photo3 photo3 photo3 photo3 ver3 bigtext bigtext bigtext bigtext bigtext ver5 last-news last-news last-news ver6"
+  	  "ver1 photo3 photo3 photo3 photo3 photo3 photo3 photo3 ver3 bigtext bigtext bigtext bigtext bigtext ver5 hor5 hor5 hor5 ver6"
+  	  "ver1 photo3 photo3 photo3 photo3 photo3 photo3 photo3 ver3 bigtext bigtext bigtext bigtext bigtext ver5 red-photo red-photo red-photo ver6"
+  	  "ver1 photo3 photo3 photo3 photo3 photo3 photo3 photo3 ver3 hor6 hor6 hor6 hor6 hor6 ver5 red-photo red-photo red-photo ver6"
+  	  "ver1 photo3 photo3 photo3 photo3 photo3 photo3 photo3 ver3 wannabe wannabe wannabe wannabe wannabe ver5 red-photo red-photo red-photo ver6"
+  	 "hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4";
+    width: 100%;
+  	z-index: 3;
+  }
+  .menu_news {
+  	display: grid;
+  	grid-template-columns: 3px 0.46fr 3px 0.67fr 3px 1.7fr 3px 0.5fr 3px 1.1fr 3px 1.4fr 3px 1fr 3px 0.4fr 3px 1.7fr 3px;
+  	grid-template-rows: 3px 1fr;
+  	grid-auto-flow: row;
+  	grid-template-areas:
+  	  "ver1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 ver1_8"
+  	  "ver1_1 back ver1_2 about ver1_3 building ver1_4 agents agents agents ver1_5 news ver1_6 list list list ver1_7 request ver1_8";
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1920px) {
   body {
     width: 1920px;
   }
@@ -38,34 +73,12 @@
   	height: 1280px;
     width: 1440px;
   }
-    .container_news {
-      display: grid;
-    	grid-template-columns: 3px 0.46fr 3px 0.67fr 3px 1.7fr 3px 0.5fr 3px 1.1fr 3px 1.1fr 3px 1.1fr 3px 0.6fr 3px 1.7fr 3px;
-    	grid-template-rows: 3px 0.7fr 3px 1.6fr 3px 0.9fr 3px 1.3fr 3px 1fr 3px;
-    	grid-template-areas:
-    	  "hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1"
-    	  "ver1 lectures lectures lectures lectures lectures lectures lectures ver2 photo1 photo1 photo1 photo1 photo1 ver4 photo2 photo2 photo2 ver6"
-    	  "ver1 hor2 hor2 hor2 hor2 hor2 hor2 hor2 ver2 photo1 photo1 photo1 photo1 photo1 ver4 photo2 photo2 photo2 ver6"
-    	  "ver1 info1 info1 info1 info1 info1 info1 info1 ver2 photo1 photo1 photo1 photo1 photo1 ver4 photo2 photo2 photo2 ver6"
-    	  "ver1 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 ver6"
-    	  "ver1 photo3 photo3 photo3 photo3 photo3 photo3 photo3 ver3 bigtext bigtext bigtext bigtext bigtext ver5 last-news last-news last-news ver6"
-    	  "ver1 photo3 photo3 photo3 photo3 photo3 photo3 photo3 ver3 bigtext bigtext bigtext bigtext bigtext ver5 hor5 hor5 hor5 ver6"
-    	  "ver1 photo3 photo3 photo3 photo3 photo3 photo3 photo3 ver3 bigtext bigtext bigtext bigtext bigtext ver5 red-photo red-photo red-photo ver6"
-    	  "ver1 photo3 photo3 photo3 photo3 photo3 photo3 photo3 ver3 hor6 hor6 hor6 hor6 hor6 ver5 red-photo red-photo red-photo ver6"
-    	  "ver1 photo3 photo3 photo3 photo3 photo3 photo3 photo3 ver3 wannabe wannabe wannabe wannabe wannabe ver5 red-photo red-photo red-photo ver6"
-    	 "hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4";
-      width: 1440px;
-      height: 830px;
-    	z-index: 3;
-    }
+  .container_news {
+    width: 1440px;
+    height: 830px;
+  }
+
   .menu_news {
-  	display: grid;
-  	grid-template-columns: 3px 0.46fr 3px 0.67fr 3px 1.7fr 3px 0.5fr 3px 1.1fr 3px 1.4fr 3px 1fr 3px 0.4fr 3px 1.7fr 3px;
-  	grid-template-rows: 3px 1fr;
-  	grid-auto-flow: row;
-  	grid-template-areas:
-  	  "ver1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 ver1_8"
-  	  "ver1_1 back ver1_2 about ver1_3 building ver1_4 agents agents agents ver1_5 news ver1_6 list list list ver1_7 request ver1_8";
     width: 1440px;
     height: 70px;
   }
@@ -111,7 +124,30 @@
   }
 }
 @media screen and (max-width: 1367px) {
+  body {
+  	height: 1280px;
+    width: 1366px;
+  }
+  .posters_show {
+    width: 1366px;
+    height: 50%;
+  }
+  .container_news {
+    width: 1366px;
+    height: 708px;
+  }
 
+  .menu_news {
+    width: 1366px;
+    height: 60px;
+  }
+  .banner_menu, .banner1_menu {
+  	width: 1360px;
+    height: 100px;
+  }
+  .ver1_1, .back, .ver1_2, .about, .ver1_3, .building, .ver1_4, .agents, .ver1_5, .news, .ver1_6, .list, .ver1_7, .request, .ver1_8 {
+    height: 60px;
+  }
 }
 @media screen and (max-width: 1025px) {
 
