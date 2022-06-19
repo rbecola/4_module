@@ -66,6 +66,24 @@ $(document).ready(function(){
   //   $(this).removeClass("opacity");
   // });
 
+
+  // function forcedOriginalScale(container_w) {
+  //
+  //   	var App = document.getElementById('container_w'); //получаем div по его id
+  //   	App.style.zoom = 1 / devicePixelRatio; //устанавливаем масштаб в зависимости от pixel-ratio
+  //
+  //   }
+  //
+  // 	document.addEventListener( //когда DOM загрузился
+  //
+  //   	"DOMContentLoaded",
+  //
+  //     function() {
+  //     	forcedOriginalScale('container_w'); //выполняем функцию, передаём в неё id нашего контейнера
+  //     }
+  //
+  // 	);
+
 });
 
   // $(".right, .right1").click(function () {
@@ -78,10 +96,10 @@ $(document).ready(function(){
   //   $(".left").addClass("add_black1");
   //   $(".circle1, .circle2, .right1").addClass("add_grey1");
   // });
-function changeItem() {
-  document.getElementById('circle').style.background = '#FFFFFF';
-}// при наведении круг под курсором меняет оттенок красного.
-
-function rechangeItem() {
-  document.getElementById('circle').style.background = '#FF0000';
-}// при отводе круг под курсором возвращает свой цвет.
+// function changeItem() {
+//   document.getElementById('circle').style.background = '#FFFFFF';
+// }// при наведении круг под курсором меняет оттенок красного.
+//
+// function rechangeItem() {
+//   document.getElementById('circle').style.background = '#FF0000';
+// }// при отводе круг под курсором возвращает свой цвет.
