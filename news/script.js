@@ -39,6 +39,33 @@ $(document).ready(function(){
     $(".new_txt").css("display","none");
   });
 
+  // $("posters_show, .cat_grey").mouseover(function() {
+  //   $('circle').addClass("display_none");
+  // });
+  // $(".posters_show, .cat_grey").mouseout(function() {
+  //   $('circle').removeClass("display_none");
+  // });
+  $(function() {
+    $('.marquee').marquee({
+      duration: 10000,
+      startVisible: true,
+      duplicated: true
+    });
+  });
+  $(function() {
+    $('.marquee1').marquee({
+      duration: 5000,
+      startVisible: true,
+      duplicated: true
+    });
+  });
+  // $(".greycat, .redcat, .artcat, .bosscat").mouseover(function() {
+  //   $(this).addClass("opacity");
+  // });
+  // $(".greycat, .redcat, .artcat, .bosscat").mouseout(function() {
+  //   $(this).removeClass("opacity");
+  // });
+
 });
 
   // $(".right, .right1").click(function () {
@@ -51,10 +78,10 @@ $(document).ready(function(){
   //   $(".left").addClass("add_black1");
   //   $(".circle1, .circle2, .right1").addClass("add_grey1");
   // });
-// function changeItem() {
-//   document.getElementById('circle').style.background = '#FF4A4A';
-// }// при наведении круг под курсором меняет оттенок красного.
-//
-// function rechangeItem() {
-//   document.getElementById('circle').style.background = '#FF0000';
-// }// при отводе круг под курсором возвращает свой цвет.
+function changeItem() {
+  document.getElementById('circle').style.background = '#FFFFFF';
+}// при наведении круг под курсором меняет оттенок красного.
+
+function rechangeItem() {
+  document.getElementById('circle').style.background = '#FF0000';
+}// при отводе круг под курсором возвращает свой цвет.
