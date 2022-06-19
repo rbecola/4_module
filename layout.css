@@ -1,5 +1,5 @@
-body {
-  font-family: Lack Regular;
+html, body {
+  font-family: Lack Regular !important;
 }
 h1 {
   font-family: Lack Regular;
