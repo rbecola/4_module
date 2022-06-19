@@ -13,12 +13,12 @@ $(document).ready(function(){
   //   $(this).removeClass("tr-over");
   //   $(".news").removeClass("add_white"); });
   //
-  $(".about, .building, .agents, .news, .list, .request, .ver1_1, .ver1_2, .ver1_3, .ver1_4, .ver1_5, .ver1_6, .ver1_7, .ver1_8").mouseover(function() {
-    $(".news").addClass("add_grey");
-  });
-  $(".about, .building, .agents, .news, .list, .request, .ver1_1, .ver1_2, .ver1_3, .ver1_4, .ver1_5, .ver1_6, .ver1_7, .ver1_8").mouseout(function() {
-    $(".news").removeClass("add_grey");
-  });
+  // $(".about, .building, .agents, .news, .list, .request, .ver1_1, .ver1_2, .ver1_3, .ver1_4, .ver1_5, .ver1_6, .ver1_7, .ver1_8").mouseover(function() {
+  //   $(".news").addClass("add_grey");
+  // });
+  // $(".about, .building, .agents, .news, .list, .request, .ver1_1, .ver1_2, .ver1_3, .ver1_4, .ver1_5, .ver1_6, .ver1_7, .ver1_8").mouseout(function() {
+  //   $(".news").removeClass("add_grey");
+  // });
 
 
   $(".right, .right1").click(function () {
@@ -51,6 +51,7 @@ $(function() {
     duplicated: true
   });
 });
+
 // function changeItem() {
 //   document.getElementById('circle').style.background = '#FF4A4A';
 // }// при наведении круг под курсором меняет оттенок красного.
