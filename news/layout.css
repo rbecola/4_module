@@ -1,5 +1,5 @@
 h1 {
-  font-family: Lack Regular;
+  font-family: Lack;
   font-size: 4.6vw;
   color: black;
   vertical-align: top;
@@ -11,7 +11,7 @@ h1 {
 }
 
 h2 {
-  font-family: Lack Regular;
+  font-family: Lack;
   font-size: 3vw;
   color: black;
   vertical-align: top;
@@ -19,7 +19,7 @@ h2 {
   text-align: center;
 }
 h3 {
-  font-family: Lack Regular;
+  font-family: Lack;
   font-size: 3vw;
   color: black;
   vertical-align: top;
@@ -28,15 +28,14 @@ h3 {
   padding-left: 7%;
 }
 h4 {
-  font-family: Lack Regular;
+  font-family: Lack;
   font-size: 1.7vw;
   color: black;
   text-align: center;
   line-height: 92px;
   margin-right: 2px
 }
-h5 {
-  font-family: Lack Regular;
+h5 {;
   font-size: 1.9vw;
   color: black;
   text-align: left;
@@ -53,7 +52,7 @@ h5 {
   line-height: 9vw;
 }
 p {
-  font-family: Lack Regular;
+  font-family: Lack;
   font-size: 1.5vw;
   color: black;
   padding-left: 1.6vw;
