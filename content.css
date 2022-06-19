@@ -150,7 +150,9 @@ body {
 .вокруг { grid-area: вокруг; }
 .вокруг2 { grid-area: вокруг2; }
 .name { grid-area: name; }
-.descript { grid-area: descript; }
+.descript { grid-area: descript;
+background-color: pink;
+}
 .вокруг-3 { grid-area: вокруг-3; }
 .вокруг-4 { grid-area: вокруг-4; }
 
