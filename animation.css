@@ -26,6 +26,17 @@
 	background-color: #FF4A4A;
 	transition: 0.2s;
 }
+.checkout1:hover {
+	background-color: #FF4A4A;
+}
+.shopper1:hover {
+	background-color: #FF4A4A;
+	transition: 0.2s;
+}
+.shopper2:hover {
+	background-color: #FF4A4A;
+	transition: 0.2s;
+}
 .next_button:hover {
 	background-color: #FF4A4A;
 	transition: 0.2s;
