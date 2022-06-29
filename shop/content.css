@@ -1,0 +1,151 @@
+body {
+	height: 2460px;
+	width: 1920px;
+	cursor: crosshair;
+}
+#circle {
+	position: absolute;
+}
+.cursor_img {
+	position: absolute;
+	background-image: url(../images/cursor.png);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	margin-left: 34%;
+	margin-top: -65%;
+	z-index: 2;
+	width: 80px;
+	height: 80px;
+}
+.circle_blur {
+	width: 250px;
+	height: 250px;
+	background-color: #FF0000;
+	border-radius: 50%;
+  filter: blur(50px);
+	z-index: 2;
+}
+
+.ver1 {
+	grid-area: ver1;
+	background-color: black;
+	z-index: 3
+}
+.ver2 {
+	grid-area: ver2;
+	background-color: black;
+	z-index: 3
+}
+.ver3 {
+	grid-area: ver3;
+	background-color: black;
+	z-index: 3
+}
+.ver4 {
+	grid-area: ver4;
+	background-color: black;
+	z-index: 3
+}
+.ver5 {
+	grid-area: ver5;
+	background-color: black;
+	z-index: 3
+}
+.ver6 {
+	grid-area: ver6;
+	background-color: black;
+	z-index: 3
+}
+.ver7 {
+	grid-area: ver7;
+	background-color: black;
+	z-index: 3
+}
+.hor1 {
+	grid-area: hor1;
+	background-color: black;
+	z-index: 3;
+}
+.hor2 {
+	grid-area: hor2;
+	background-color: black;
+	z-index: 3;
+}
+.hor3 {
+	grid-area: hor3;
+	background-color: black;
+	z-index: 3;
+}
+.hor4 {
+	grid-area: hor4;
+	background-color: black;
+	z-index: 3;
+}
+.hor6 {
+	grid-area: hor6;
+	background-color: black;
+	z-index: 3;
+}
+.hor5 {
+	grid-area: hor5;
+	background-color: black;
+	z-index: 3;
+}
+.checkout1 { grid-area: checkout1;
+	z-index: 2;
+	transition: 0.3s;
+}
+
+.pillow { grid-area: pillow;
+	overflow: hidden;
+	z-index: 1;
+}
+.pillow_img {
+	z-index: 1;
+}
+
+.carrying {
+	grid-area: carrying;
+	background-image: url(images/carry.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: center;
+	background-position-y: center;
+	z-index: 3;
+}
+
+.shopper2 { grid-area: shopper2;
+background-color: #DADADA;
+}
+
+.shopper1 { grid-area: shopper1;
+background-color: #DADADA;
+}
+
+.notebook { grid-area: notebook;
+	background-image: url(images/notebook.svg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: center;
+	background-position-y: center;
+	z-index: 3;
+}
+
+.shopper_info { grid-area: shopper_info; }
+
+.tie { grid-area: tie; }
+
+.id_card { grid-area: id_card; }
+
+.fflag { grid-area: fflag; }
+
+.add_white {
+	background-color: white;
+}
+.add_grey {
+	background-color: #DDDDDD;
+}
+.tr-over {
+  background-color: #FF4A4A;
+	background: #FF4A4A;
+}
