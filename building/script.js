@@ -24,10 +24,6 @@ $(document).ready(function(){
   });
 
 });
-// function changeItem() {
-//   document.getElementById('circle').style.background = '#FF4A4A';
-// }// при наведении круг под курсором меняет оттенок красного.
-//
-// function rechangeItem() {
-//   document.getElementById('circle').style.background = '#FF0000';
-// }// при отводе круг под курсором возвращает свой цвет.
+// $('.carousel').carousel({
+//   interval: false
+// })
