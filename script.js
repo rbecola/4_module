@@ -33,6 +33,8 @@ $(document).ready(function(){
     $(".circle1").removeClass("add_grey1");
     $(".photo1").css("background-image","url(images/posters1.png)");
   });
+
+
   // $(".right, .right1").click(function () {
   //   $(".circle3, .left1").addClass("add_black");
   //   $(".left").addClass("add_black1");
