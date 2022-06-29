@@ -72,3 +72,21 @@ background-color: black;
 }
 
 .photo2 { grid-area: photo2; }
+
+.book {
+	height: 1020px;
+	width: 1920px;
+}
+.carousel-control{
+	top:150%;
+	z-index: 3;
+}
+.carousel {
+    position: relative;
+}
+.carousel-indicators {
+    bottom: 20px;
+}
+img {
+    vertical-align: middle;
+}
