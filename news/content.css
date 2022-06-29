@@ -1,5 +1,5 @@
 body {
-	font-family: 'Lack Regular';
+font-family: 'Montserrat', sans-serif;
 	height: 1750px;
 	cursor: crosshair;
 }
@@ -245,7 +245,7 @@ background-color: white;
 	background: #FF4A4A;
 }
 .april_30 {
-	width: 92%;
+	width: 91%;
 	display: block;
 }
 .new_txt {
