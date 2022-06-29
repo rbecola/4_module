@@ -3,32 +3,12 @@
     width: 100%;
   }
   .container_news {
-    display: grid;
-  	grid-template-columns: 3px 0.46fr 3px 0.67fr 3px 1.7fr 3px 0.5fr 3px 1.1fr 3px 1.1fr 3px 1.1fr 3px 0.6fr 3px 1.7fr 3px;
-  	grid-template-rows: 3px 0.7fr 3px 1.6fr 3px 0.9fr 3px 1.3fr 3px 1fr 3px;
-  	grid-template-areas:
-  	  "hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1"
-  	  "ver1 lectures lectures lectures lectures lectures lectures lectures ver2 photo1 photo1 photo1 photo1 photo1 ver4 photo2 photo2 photo2 ver6"
-  	  "ver1 hor2 hor2 hor2 hor2 hor2 hor2 hor2 ver2 photo1 photo1 photo1 photo1 photo1 ver4 photo2 photo2 photo2 ver6"
-  	  "ver1 info1 info1 info1 info1 info1 info1 info1 ver2 photo1 photo1 photo1 photo1 photo1 ver4 photo2 photo2 photo2 ver6"
-  	  "ver1 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 ver6"
-  	  "ver1 photo3 photo3 photo3 photo3 photo3 photo3 photo3 ver3 bigtext bigtext bigtext bigtext bigtext ver5 last-news last-news last-news ver6"
-  	  "ver1 photo3 photo3 photo3 photo3 photo3 photo3 photo3 ver3 bigtext bigtext bigtext bigtext bigtext ver5 hor5 hor5 hor5 ver6"
-  	  "ver1 photo3 photo3 photo3 photo3 photo3 photo3 photo3 ver3 bigtext bigtext bigtext bigtext bigtext ver5 red-photo red-photo red-photo ver6"
-  	  "ver1 photo3 photo3 photo3 photo3 photo3 photo3 photo3 ver3 hor6 hor6 hor6 hor6 hor6 ver5 red-photo red-photo red-photo ver6"
-  	  "ver1 photo3 photo3 photo3 photo3 photo3 photo3 photo3 ver3 wannabe wannabe wannabe wannabe wannabe ver5 red-photo red-photo red-photo ver6"
-  	 "hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4";
     width: 100%;
-  	z-index: 3;
   }
-  .menu_news {
-  	display: grid;
-  	grid-template-columns: 3px 0.46fr 3px 0.67fr 3px 1.7fr 3px 0.5fr 3px 1.1fr 3px 1.4fr 3px 1fr 3px 0.4fr 3px 1.7fr 3px;
-  	grid-template-rows: 3px 1fr;
-  	grid-auto-flow: row;
-  	grid-template-areas:
-  	  "ver1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 ver1_8"
-  	  "ver1_1 back ver1_2 about ver1_3 building ver1_4 agents agents agents ver1_5 news ver1_6 list list list ver1_7 request ver1_8";
+  .menu {
+    width: 100%;
+  }
+  .container_request {
     width: 100%;
   }
 }
@@ -56,7 +36,19 @@
     width: 1920px;
   	z-index: 3;
   }
-  .menu_news {
+  .menu_main {
+  	display: grid;
+  	grid-template-columns: 3px 0.46fr 3px 0.67fr 3px 1.7fr 3px 0.5fr 3px 1.1fr 3px 1.4fr 3px 1fr 3px 0.4fr 3px 1.7fr 3px;
+  	grid-template-rows: 3px 1fr;
+  	gap: 0px 0px;
+  	grid-auto-flow: row;
+  	grid-template-areas:
+  	  "ver1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 ver1_8"
+  	  "ver1_1 about about about ver1_3 building ver1_4 agents agents agents ver1_5 news ver1_6 list list list ver1_7 request ver1_8";
+    width: 1920px;
+    /* height: 4.25%; */
+  }
+  .menu {
   	display: grid;
   	grid-template-columns: 3px 0.46fr 3px 0.67fr 3px 1.7fr 3px 0.5fr 3px 1.1fr 3px 1.4fr 3px 1fr 3px 0.4fr 3px 1.7fr 3px;
   	grid-template-rows: 3px 1fr;
@@ -66,6 +58,54 @@
   	  "ver1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 ver1_8"
   	  "ver1_1 back ver1_2 about ver1_3 building ver1_4 agents agents agents ver1_5 news ver1_6 list list list ver1_7 request ver1_8";
     width: 1920px;
+  }
+  .container_building {
+    display: grid;
+    grid-template-columns: 3px 0.47fr 0.68fr 1.7fr 0.5fr 1.1fr 3px 1.1fr 1.1fr 0.6fr 1.7fr 3px;
+    grid-template-rows: 3px 1fr 3px 1fr 3px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "ver1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 ver3"
+      "ver1 photo1 photo1 photo1 photo1 photo1 ver2 vacancies vacancies vacancies vacancies ver3"
+      "ver1 photo1 photo1 photo1 photo1 photo1 ver2 hor2 hor2 hor2 hor2 ver3"
+      "ver1 photo1 photo1 photo1 photo1 photo1 ver2 photo2 photo2 photo2 photo2 ver3"
+      "ver1 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 ver3";
+    width: 1920px;
+  	height: 1050px;
+  }
+  .container_request {
+    display: grid;
+    grid-template-columns: 3px 0.47fr 0.68fr 1.71fr 0.511fr 1.1fr 3px 1.2fr 3px 1fr 3px 0.6fr 1.7fr 3px;
+    grid-template-rows: 3px 1.1fr 3px 6fr 3px 2.2fr 3px 0.9fr 3px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "ver1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 ver7"
+      "ver1 services services services services services ver2 agents_1 agents_1 agents_1 agents_1 agents_1 agents_1 ver7"
+      "ver1 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 ver7"
+      "ver1 choice_s choice_s choice_s choice_s choice_s ver3 choice_a choice_a choice_a choice_a choice_a choice_a ver7"
+      "ver1 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 ver7"
+      "ver1 info info info info info ver4 filter1 filter1 filter1 ver5 filter filter ver7"
+      "ver1 hor4 hor4 hor4 hor4 hor4 ver4 hor5 hor5 hor5 hor5 hor5 hor5 ver7"
+      "ver1 black black black black black black black black black next_2 next_2 next_2 ver7"
+      "ver1 hor6 hor6 hor6 hor6 hor6 hor6 hor6 hor6 hor6 hor6 hor6 hor6 ver7";
+    width: 1920px;
+    height: 985px;
+  }
+  .new_grid {
+    grid-template-areas:
+    "ver1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 ver7"
+    "ver1 services services services services services ver2 agents_1 agents_1 agents_1 agents_1 agents_1 agents_1 ver7"
+    "ver1 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 ver7"
+    "ver1 choice_s choice_s choice_s choice_s choice_s ver3 choice_a choice_a choice_a choice_a choice_a choice_a ver7"
+    "ver1 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 ver7"
+    "ver1 info info info info info ver4 filter1 filter1 filter1 ver5 filter filter ver7"
+    "ver1 hor4 hor4 hor4 hor4 hor4 ver4 hor5 hor5 hor5 ver5 filter filter ver7"
+    "ver1 black black black black black ver4 reset ver6 next ver5 filter filter ver7"
+    "ver1 hor6 hor6 hor6 hor6 hor6 hor6 hor6 hor6 hor6 hor6 hor6 hor6 ver7"
+  }
+  h4 {
+    font-size: 1.7vw;
+    line-height: 92px;
   }
 }
 @media screen and (max-width: 1441px) {
@@ -77,8 +117,11 @@
     width: 1440px;
     height: 830px;
   }
-
-  .menu_news {
+  .container_request {
+    width: 1440px;
+    height: 830px;
+  }
+  .menu {
     width: 1440px;
     height: 70px;
   }
@@ -94,7 +137,10 @@
   .ver1_1, .back, .ver1_2, .about, .ver1_3, .building, .ver1_4, .agents, .ver1_5, .news, .ver1_6, .list, .ver1_7, .request, .ver1_8 {
     height: 70px;
   }
-  h4 {line-height: 72px;}
+  h4 {
+    line-height: 72px;
+    font-size: 1.8vw;
+  }
   h1 {
     font-size: 4.3vw;
     line-height: 160%;
