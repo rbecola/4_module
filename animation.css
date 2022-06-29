@@ -26,7 +26,10 @@
 	background-color: #FF4A4A;
 	transition: 0.2s;
 }
-
+.next_button:hover {
+	background-color: #FF4A4A;
+	transition: 0.2s;
+}
 #circle {
   animation: circle1 0.6s 1;
   animation-timing-function: linear;
