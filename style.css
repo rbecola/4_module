@@ -6,10 +6,10 @@
  @import "animation.css";
  @font-face {
  font-family: 'Lack Regular';
-  src: url('../fonts1/Lack-Regular.otf') format('opentype');
-  src: url('../fonts1/Lack-Regular.woff') format('woff');
-  src: url('../fonts1/Lack-Regular.woff2') format('woff2');
-  src: url('../fonts1/Lack-Regular.eot') format('eot');
+  src: url('fonts1/Lack-Regular.otf') format('opentype');
+  src: url('fonts1/Lack-Regular.woff') format('woff');
+  src: url('fonts1/Lack-Regular.woff2') format('woff2');
+  src: url('fonts1/Lack-Regular.eot') format('eot');
  font-weight: normal;
  font-style: normal;
  }
