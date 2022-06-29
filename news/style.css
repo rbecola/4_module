@@ -6,6 +6,9 @@
   /* @import "layout.css"; */
 
  @import url('../animation.css');
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@700&family=Montserrat:wght@500;600&display=swap');
+  */
  @font-face {
  font-family: 'Lack Regular';
   src: url('../fonts1/Lack-Regular.otf') format('opentype');
