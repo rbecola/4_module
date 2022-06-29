@@ -49,7 +49,14 @@
 .scale:hover {
   transform: scale(1.1); /* Увеличиваем масштаб */
 }
-
+@keyframes colorChange {
+  0% {
+    background-color: #FF4A4A;;
+  }
+  100% {
+    background-color: #FF4A4A;;
+  }
+}
 /* .greycat:hover {
 scale: 1.1;
 }
