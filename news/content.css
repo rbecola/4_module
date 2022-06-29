@@ -222,7 +222,11 @@ z-index: 2;
 }
 .photo3 {
 	grid-area: photo3;
-	background-color: white;
+	background-image: url(images/awards.svg);
+	background-position-x: center;
+	background-position-y: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .wannabe {
