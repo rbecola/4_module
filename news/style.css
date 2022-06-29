@@ -1,8 +1,10 @@
   @import  url('../reset.css');
+   @import url('../adaptive.css');
+   @import "content.css";
  @import url('../layout.css');
- @import "content.css";
+@import url('../menu.css');
   /* @import "layout.css"; */
- @import url('../adaptive.css');
+
  @import url('../animation.css');
  @font-face {
  font-family: 'Lack Regular';
