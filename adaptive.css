@@ -20,6 +20,25 @@
   body {
     width: 1920px;
   }
+  .container_shop1 {
+    display: grid;
+    grid-template-columns: 3px 1fr 3px 1fr 3px 1fr 3px 1fr 3px;
+    grid-template-rows: 3px 1fr 3px 6.4fr 3px 3.8fr 3px 2.6fr 3px 4.8fr 3px;
+    grid-template-areas:
+      "ver1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 ver3"
+      "ver1 checkout1 checkout1 checkout1 checkout1 checkout1 checkout1 checkout1 ver3"
+      "ver1 hor2 hor2 hor2 hor2 hor2 hor2 hor2 ver3"
+      "ver1 pillow ver4 carrying carrying carrying carrying carrying ver3"
+      "ver1 hor5 hor5 hor5 hor5 hor5 hor5 hor5 ver3"
+      "ver1 notebook notebook notebook ver2 shopper1 ver5 shopper2 ver3"
+      "ver1 notebook notebook notebook ver2 hor3 hor3 hor3 ver3"
+      "ver1 notebook notebook notebook ver2 shopper_info shopper_info shopper_info ver3"
+      "ver1 hor4 hor4 hor4 hor4 hor4 hor4 hor4 ver3"
+      "ver1 tie ver6 id_card ver7 fflag fflag fflag ver3"
+      "ver1 hor6 hor6 hor6 hor6 hor6 hor6 hor6 ver3";
+    width: 1920px;
+    height: 2460px;
+  }
   .container_news {
     display: grid;
   	grid-template-columns: 3px 0.46fr 3px 0.67fr 3px 1.7fr 3px 0.5fr 3px 1.1fr 3px 1.1fr 3px 1.1fr 3px 0.6fr 3px 1.7fr 3px;
@@ -110,6 +129,7 @@
     font-size: 1.7vw;
     line-height: 92px;
   }
+
 }
 @media screen and (max-width: 1441px) {
   body {
