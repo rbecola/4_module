@@ -14,9 +14,11 @@ $(document).ready(function(){
   //   $(".news").removeClass("add_white"); });
   //
   $(".about, .building, .agents, .news, .list, .request, .ver1_1, .ver1_2, .ver1_3, .ver1_4, .ver1_5, .ver1_6, .ver1_7, .ver1_8").mouseover(function() {
+    $(".news").removeClass("on");
     $(".news").addClass("add_grey");
   });
   $(".about, .building, .agents, .news, .list, .request, .ver1_1, .ver1_2, .ver1_3, .ver1_4, .ver1_5, .ver1_6, .ver1_7, .ver1_8").mouseout(function() {
+    $(".news").addClass("on");
     $(".news").removeClass("add_grey");
   });
 
@@ -48,13 +50,6 @@ $(document).ready(function(){
   $(function() {
     $('.marquee').marquee({
       duration: 10000,
-      startVisible: true,
-      duplicated: true
-    });
-  });
-  $(function() {
-    $('.marquee1').marquee({
-      duration: 5000,
       startVisible: true,
       duplicated: true
     });
