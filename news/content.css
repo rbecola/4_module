@@ -92,33 +92,6 @@ body {
 }
 
 
-
-.container_news {
-	display: grid;
-	grid-template-columns: 3px 0.46fr 3px 0.67fr 3px 1.7fr 3px 0.5fr 3px 1.1fr 3px 1.1fr 3px 1.1fr 3px 0.6fr 3px 1.7fr 3px;
-	grid-template-rows: 3px 0.7fr 3px 1.6fr 3px 0.9fr 3px 1.3fr 3px 1fr 3px;
-	grid-template-areas:
-		"hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1"
-		"ver1 lectures lectures lectures lectures lectures lectures lectures ver2 photo1 photo1 photo1 photo1 photo1 ver4 photo2 photo2 photo2 ver6"
-		"ver1 hor2 hor2 hor2 hor2 hor2 hor2 hor2 ver2 photo1 photo1 photo1 photo1 photo1 ver4 photo2 photo2 photo2 ver6"
-		"ver1 info1 info1 info1 info1 info1 info1 info1 ver2 photo1 photo1 photo1 photo1 photo1 ver4 photo2 photo2 photo2 ver6"
-		"ver1 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 ver6"
-		"ver1 photo3 photo3 photo3 photo3 photo3 photo3 photo3 ver3 bigtext bigtext bigtext bigtext bigtext ver5 last-news last-news last-news ver6"
-		"ver1 photo3 photo3 photo3 photo3 photo3 photo3 photo3 ver3 bigtext bigtext bigtext bigtext bigtext ver5 hor5 hor5 hor5 ver6"
-		"ver1 photo3 photo3 photo3 photo3 photo3 photo3 photo3 ver3 bigtext bigtext bigtext bigtext bigtext ver5 red-photo red-photo red-photo ver6"
-		"ver1 photo3 photo3 photo3 photo3 photo3 photo3 photo3 ver3 hor6 hor6 hor6 hor6 hor6 ver5 red-photo red-photo red-photo ver6"
-		"ver1 photo3 photo3 photo3 photo3 photo3 photo3 photo3 ver3 wannabe wannabe wannabe wannabe wannabe ver5 red-photo red-photo red-photo ver6"
-	 "hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4";
-	z-index: 3;
-}
-
-
-
-
-
-
-
-
 .lectures {
 	grid-area: lectures;
 	background-color: white;
