@@ -25,90 +25,6 @@ body {
 	z-index: 2;
 }
 
-.ver1_1 {
-	grid-area: ver1_1;
-	background-color: black;
-	z-index: 3
-}
-.ver1_2 {
-	grid-area: ver1_2;
-	background-color: black;
-	z-index: 3
-}
-.ver1_3 {
-	grid-area: ver1_3;
-	background-color: black;
-	z-index: 3
-}
-.ver1_4 {
-	grid-area: ver1_4;
-	background-color: black;
-	z-index: 3
-}
-.ver1_5 {
-	grid-area: ver1_5;
-	background-color: black;
-	z-index: 3
-}
-.ver1_6 {
-	grid-area: ver1_6;
-	background-color: black;
-	z-index: 3
-}
-.ver1_7 {
-	grid-area: ver1_7;
-	background-color: black;
-	z-index: 3
-}
-.ver1_8 {
-	grid-area: ver1_8;
-	background-color: black;
-	z-index: 3
-}
-.hor1_1 {
-	grid-area: hor1_1;
-	background-color: black;
-	z-index: 3
-}
-
-.back {
-	grid-area: back;
-	background-color: black;
-	z-index: 2;
-}
-
-.about {
-	grid-area: about;
-	background-color: white;
-	z-index: 2;
-}
-.building {
-	grid-area: building;
-	background-color: white;
-	z-index: 2;
-}
-
-.agents {
-	grid-area: agents;
-	background-color: white;
-	z-index: 2;
-}
-.news {
-	grid-area: news;
-	background-color: #FF4A4A;
-	z-index: 2;
-}
-
-.list {
-	grid-area: list;
-	background-color: white;
-	z-index: 2;
-}
-.request {
-	grid-area: request;
-	background-color: white;
-	z-index: 2;
-}
 .posters_show {
 	width: 1920px;
 	height: 50%;
@@ -174,6 +90,33 @@ body {
 	background-color: black;
 	z-index: 3;
 }
+
+
+
+.container_news {
+	display: grid;
+	grid-template-columns: 3px 0.46fr 3px 0.67fr 3px 1.7fr 3px 0.5fr 3px 1.1fr 3px 1.1fr 3px 1.1fr 3px 0.6fr 3px 1.7fr 3px;
+	grid-template-rows: 3px 0.7fr 3px 1.6fr 3px 0.9fr 3px 1.3fr 3px 1fr 3px;
+	grid-template-areas:
+		"hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1"
+		"ver1 lectures lectures lectures lectures lectures lectures lectures ver2 photo1 photo1 photo1 photo1 photo1 ver4 photo2 photo2 photo2 ver6"
+		"ver1 hor2 hor2 hor2 hor2 hor2 hor2 hor2 ver2 photo1 photo1 photo1 photo1 photo1 ver4 photo2 photo2 photo2 ver6"
+		"ver1 info1 info1 info1 info1 info1 info1 info1 ver2 photo1 photo1 photo1 photo1 photo1 ver4 photo2 photo2 photo2 ver6"
+		"ver1 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 ver6"
+		"ver1 photo3 photo3 photo3 photo3 photo3 photo3 photo3 ver3 bigtext bigtext bigtext bigtext bigtext ver5 last-news last-news last-news ver6"
+		"ver1 photo3 photo3 photo3 photo3 photo3 photo3 photo3 ver3 bigtext bigtext bigtext bigtext bigtext ver5 hor5 hor5 hor5 ver6"
+		"ver1 photo3 photo3 photo3 photo3 photo3 photo3 photo3 ver3 bigtext bigtext bigtext bigtext bigtext ver5 red-photo red-photo red-photo ver6"
+		"ver1 photo3 photo3 photo3 photo3 photo3 photo3 photo3 ver3 hor6 hor6 hor6 hor6 hor6 ver5 red-photo red-photo red-photo ver6"
+		"ver1 photo3 photo3 photo3 photo3 photo3 photo3 photo3 ver3 wannabe wannabe wannabe wannabe wannabe ver5 red-photo red-photo red-photo ver6"
+	 "hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4";
+	z-index: 3;
+}
+
+
+
+
+
+
 
 
 .lectures {
@@ -392,4 +335,10 @@ background-color: white;
 }
 .black_color {
 	background-color: black;
+}
+.on {
+	animation-name: colorChange;
+  animation-fill-mode: forwards;
+	animation-duration: 0.01s;
+	animation-iteration-count: 1;
 }
