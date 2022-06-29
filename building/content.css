@@ -30,19 +30,6 @@ body {
 	animation-duration: 0.01s;
 	animation-iteration-count: 1;
 }
-.container_building {  display: grid;
-  grid-template-columns: 3px 0.46fr 0.67fr 1.7fr 0.5fr 1.1fr 3px 1.1fr 1.1fr 0.6fr 1.7fr 3px;
-  grid-template-rows: 3px 1fr 3px 1fr 3px;
-  grid-auto-flow: row;
-  grid-template-areas:
-    "ver1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 ver3"
-    "ver1 photo1 photo1 photo1 photo1 photo1 ver2 vacancies vacancies vacancies vacancies ver3"
-    "ver1 photo1 photo1 photo1 photo1 photo1 ver2 hor2 hor2 hor2 hor2 ver3"
-    "ver1 photo1 photo1 photo1 photo1 photo1 ver2 photo2 photo2 photo2 photo2 ver3"
-    "ver1 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 ver3";
-  width: 1920px;
-	height: 1050px;
-}
 
 .ver1 {
 	grid-area: ver1;
@@ -74,13 +61,14 @@ body {
 	background-color: black;
 	z-index: 3;
 }
-.photo1 { grid-area: building;
+.photo1 { grid-area: photo1;
 	background-image: url(images/building.svg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	z-index: 2;
 }
 
-.vacancies { grid-area: vacancies; }
+.vacancies { grid-area: vacancies;
+background-color: black;
+}
 
 .photo2 { grid-area: photo2; }
