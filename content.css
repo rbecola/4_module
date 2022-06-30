@@ -27,53 +27,23 @@ font-family: 'Montserrat', sans-serif;
   filter: blur(50px);
 	z-index: 2;
 }
-/* .menu {
-	display: grid;
-	grid-template-columns: 3px 1fr 3px 1.3fr 3px 1.3fr 3px 1.3fr 3px 0.6fr 3px 0.7fr 3px 1.3fr 3px;
-	grid-template-rows: 3px 1fr;
-	gap: 0px 0px;
-	grid-auto-flow: row;
-	grid-template-areas:
-	"hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1 hor1_1"
-	"ver1_1 about ver1_2 building ver1_3 agents ver1_4 news ver1_5 list list list ver1_6 request ver1_7";
-  width: 1920px;
-  height: 8.5%;
-} */
-.container {
-  display: grid;
-	grid-template-columns: 3px 1fr 3px 1fr 3px 1.5fr 3px 1.5fr 3px 0.5fr 3px 1fr 3px 1fr 3px;
-  grid-template-rows: 3px 0.3fr 3px 0.9fr 3px 1fr 3px;
-  gap: 0px 0px;
-  grid-template-areas:
-    "ver1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 hor1 ver6"
-    "ver1 banner banner banner banner banner banner banner banner banner banner banner banner banner ver6"
-    "ver1 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 hor2 ver6"
-    "ver1 вокруг вокруг вокруг ver2 name name name name name ver3 вокруг-3 вокруг-3 вокруг-3 ver6"
-    "ver1 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 hor3 ver6"
-    "ver1 вокруг2 вокруг2 вокруг2 ver4 descript descript descript descript descript ver5 вокруг-4 вокруг-4 вокруг-4 ver6"
-    "ver1 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 hor4 ver6";
-  width: 100%;
-  height: 91.5%;
-	z-index: 3;
-	position: sticky;
+.radial-gradient {
+  /* position:fixed; */
+  top:0px;
+  left:0px;
+  width:100%;
+
+  /*Fallback if gradeints don't work */
+  background: #FF4A4A;
+  /*Linear gradient... */
+  background:
+    radial-gradient(
+     at center, #FF0000, #FFFFFF
+    );
 }
-.banner { grid-area: banner; }
-.вокруг { grid-area: вокруг; }
-.вокруг2 { grid-area: вокруг2; }
-.name { grid-area: name; }
-.descript { grid-area: descript;
-background-color: white;
-}
-.вокруг-3 { grid-area: вокруг-3; }
-.вокруг-4 { grid-area: вокруг-4; }
 
 .ver1 {
 	grid-area: ver1;
-	background-color: black;
-	z-index: 3;
-}
-.hor1 {
-	grid-area: hor1;
 	background-color: black;
 	z-index: 3;
 }
@@ -82,25 +52,10 @@ background-color: white;
 	background-color: black;
 	z-index: 3
 }
-.ver3 {
-	grid-area: ver3;
+.hor1 {
+	grid-area: hor1;
 	background-color: black;
-	z-index: 3
-}
-.ver4 {
-	grid-area: ver4;
-	background-color: black;
-	z-index: 3
-}
-.ver5 {
-	grid-area: ver5;
-	background-color: black;
-	z-index: 3
-}
-.ver6 {
-	grid-area: ver6;
-	background-color: black;
-	z-index: 3
+	z-index: 3;
 }
 .hor2 {
 	grid-area: hor2;
@@ -112,12 +67,14 @@ background-color: white;
 	background-color: black;
 	z-index: 3;
 }
-.hor4 {
-	grid-area: hor4;
-	background-color: black;
-	z-index: 3;
+.banner { grid-area: banner;
+background-color: white;
+z-index: 3;
 }
 
+.boucat {
+	grid-area: boucat;}
+}
 
 .add_black {
 	background-color: black;
