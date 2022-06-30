@@ -1,10 +1,18 @@
-$(document).ready(function(){
+// $(document).ready(function(){
+//
+//   document.addEventListener('mousemove', e => {
+//       circle.style.left = e.pageX -125 + "px";
+//       circle.style.top = e.pageY -125 + "px";
+//   });
+$(document).mousemove(function(event) {
+  windowWidth = $(window).width();
+  windowHeight = $(window).height();
 
-  document.addEventListener('mousemove', e => {
-      circle.style.left = e.pageX -125 + "px";
-      circle.style.top = e.pageY -125 + "px";
-  });
+  mouseXpercentage = Math.round(event.pageX / windowWidth * 100);
+  mouseYpercentage = Math.round(event.pageY / windowHeight * 100);
 
+  $('.radial-gradient').css('background', 'radial-gradient(at ' + mouseXpercentage + '% ' + mouseYpercentage + '%, #FF0000, #FFFFFF)');
+});
   // $(".back").mouseover(function() {
   //   $(this).addClass("tr-over");
   //   $(".news").addClass("add_white");
@@ -34,7 +42,6 @@ $(document).ready(function(){
     $(".photo1").css("background-image","url(images/posters1.png)");
   });
 
-
   // $(".right, .right1").click(function () {
   //   $(".circle3, .left1").addClass("add_black");
   //   $(".left").addClass("add_black1");
@@ -45,7 +52,7 @@ $(document).ready(function(){
   //   $(".left").addClass("add_black1");
   //   $(".circle1, .circle2, .right1").addClass("add_grey1");
   // });
-});
+
 $(function() {
   $('.marquee').marquee({
     duration: 10000,
