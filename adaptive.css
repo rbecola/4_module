@@ -20,6 +20,10 @@
   body {
     width: 1920px;
   }
+  .banner_menu {
+  	height: 128px;
+  	width: 1914px;
+  }
   .container_shop1 {
     display: grid;
     grid-template-columns: 3px 1fr 3px 1fr 3px 1fr 3px 1fr 3px;
@@ -69,6 +73,28 @@
   	  "ver1_1 about about about ver1_3 building ver1_4 agents agents agents ver1_5 news ver1_6 list list list ver1_7 request ver1_8";
     width: 1920px;
     /* height: 4.25%; */
+  }
+  .container_main {
+  	display: grid;
+  	grid-template-columns: 3px 1fr 3px;
+  	grid-template-rows: 3px 0.3fr 3px 0.9fr 3px 1fr 3px;
+  	grid-template-areas:
+  		"ver1 hor1 ver2"
+  		"ver1 banner ver2"
+  		"ver1 hor2 ver2"
+  		"ver1 boucat ver2"
+  		"ver1 boucat ver2"
+  		"ver1 boucat ver2"
+  		"ver1 hor3 ver2";
+  	width: 1920px;
+  	z-index: 3;
+  	/* height: 80%; */
+  }
+  .radial-gradient {
+    height: 843px;
+  }
+  .marquee {
+    width: 1914px;
   }
   .menu {
   	display: grid;
@@ -129,7 +155,26 @@
     font-size: 1.7vw;
     line-height: 92px;
   }
-
+  h2 {
+    font-size: 3vw;
+    padding-top: 1.8vw;
+  }
+  h3 {
+    font-size: 3vw;
+    padding-top: 1.6vw;
+  }
+  .posters_show {
+    width: 1920px;
+    height: 50%;
+  }
+  .circles {
+  	padding-left: 42%;
+  	padding-top: 4%;
+  }
+  .circle1, .circle2, .circle3  {
+  	width: 1.2vw;
+  	height: 1.2vw;
+  }
 }
 @media screen and (max-width: 1441px) {
   body {
@@ -218,8 +263,65 @@
     height: 60px;
   }
 }
-@media screen and (max-width: 1025px) {
+@media screen and (max-width: 1024px) {
+  body {
+    width: 1024px;
+    height:1150px !important;
+  }
+  .container_news {
+    width: 1024px;
+    height: 600px;
+  }
+  .menu {
+    width: 1024px;
+    height: 50px;
+  }
+  .banner_menu, .banner1_menu {
+    width: 1018px;
+    height: 70px;
+  }
+  .circles {
+  	padding-left: 42%;
+  	padding-top: 4%;
+  }
+  .circle1, .circle2, .circle3  {
+  	/* width: 10px;
+  	height: 10px; */
+  }
 
+  .posters_show {
+    width: 1024px;
+    height: 40%;
+  }
+
+  h4 {
+    line-height: 260%;
+    font-size: 1.8vw;
+  }
+  h1 {
+    font-size: 4.3vw;
+    line-height: 160%;
+  }
+  h2 {
+    font-size: 3.1vw;
+    padding-top: 2.1vw;
+  }
+  h3 {
+    font-size: 3.1vw;
+    padding-top: 1.6vw;
+  }
+  h5 {
+    font-size: 2vw;
+  }
+  .container_news {
+    grid-template-columns: 2px 0.46fr 2px 0.67fr 2px 1.7fr 2px 0.5fr 2px 1.1fr 2px 1.1fr 2px 1.1fr 2px 0.6fr 2px 1.7fr 2px;
+    grid-template-rows: 2px 0.7fr 2px 1.6fr 2px 0.9fr 2px 1.3fr 2px 1fr 2px;
+  }
+  .menu {
+    display: grid;
+    grid-template-columns: 2px 0.46fr 2px 0.67fr 2px 1.7fr 2px 0.5fr 2px 1.1fr 2px 1.4fr 2px 1fr 2px 0.4fr 2px 1.7fr 2px;
+    grid-template-rows: 2px 1fr;
+  }
 }
 @media screen and (max-width: 415px) {
 
@@ -228,13 +330,34 @@
 
 }
 
-@media screen and (min-width: 1023px) {
-  .container {
+@media screen and (max-width: 1025px) {
+  .container_main {
   width: 100%;
   }
 }
-@media screen and (min-width: 1365px) {
+@media screen and (max-width: 1367px) {
+  body {
+    width: 1366px;
+  }
+  .news_div {
+    height: 1280px;
+    width: 1366px;
+  }
   .container {
   width: 100%;
+  }
+  .menu {
+    width: 1366px;
+    height: 60px;
+  }
+  .ver1_1, .back, .ver1_2, .about, .ver1_3, .building, .ver1_4, .agents, .ver1_5, .news, .ver1_6, .list, .ver1_7, .request, .ver1_8 {
+    height: 60px;
+  }
+  h4 {
+    line-height: 60px;
+  }
+  .posters_show {
+    width: 1360px;
+    /* height: 20%; */
   }
 }
